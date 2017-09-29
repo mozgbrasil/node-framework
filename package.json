@@ -22,7 +22,6 @@
   },
   "homepage": "http://mozg.com.br/",
   "dependencies": {
-    "fix-ie": "^1.2.1",
     "cpf_cnpj": "^0.2.0",
     "creditcard-info": "^0.2.4",
     "random-fullname": "^1.0.2",

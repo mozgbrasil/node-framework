@@ -69,7 +69,6 @@ Ter instalado o [git][git-download] e [npm][npm-download]
 
     npm ls
 
-    npm install --save fix-ie
     npm install --save cpf_cnpj
     npm install --save smart-utils
     npm install --save random-item
@@ -81,19 +80,31 @@ Ter instalado o [git][git-download] e [npm][npm-download]
 
     npm update
 
+	npm pack
+
     node index.js
 
     node tests/index.js
 
-    browserify -r fix-ie -r cpf_cnpj -r smart-utils -r random-item -r random-year -r random-month -r random-natural -r random-fullname -r random-firstname -r random-lastname -r creditcard-info -r @mozg/node-framework > /home/marcio/dados/public_html/git/automatic/magento-base/js/mozg_base/bundle.js
+
 
 ## Testando pacote local
 
 	# https://docs.npmjs.com/cli/pack
 
     cd /home/marcio/dados/public_html/git/automatic/node-framework
+
+	npm update
+
 	npm pack
+
+	-
+
+	cd /home/marcio/dados/public_html/git/automatic/magento-base
+
 	npm install /home/marcio/dados/public_html/git/automatic/node-framework/mozg-node-framework-1.0.0.tgz
+
+	browserify -r cpf_cnpj -r smart-utils -r random-item -r random-year -r random-month -r random-natural -r random-fullname -r random-firstname -r random-lastname -r creditcard-info -r @mozg/node-framework > /home/marcio/dados/public_html/git/automatic/magento-base/js/mozg_base/bundle.js
 
 ## Iniciando publicação do pacote
 
