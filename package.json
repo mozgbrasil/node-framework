@@ -1,0 +1,36 @@
+{
+  "name": "@mozg/node-framework",
+  "version": "1.0.0",
+  "description": "multi library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozgbrasil/node-framework.git"
+  },
+  "keywords": [
+    "node",
+    "brasil",
+    "library"
+  ],
+  "author": "Marcio dos Santos Amorim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozgbrasil/node-framework/issues"
+  },
+  "homepage": "http://mozg.com.br/",
+  "dependencies": {
+    "fix-ie": "^1.2.1",
+    "cpf_cnpj": "^0.2.0",
+    "creditcard-info": "^0.2.4",
+    "random-fullname": "^1.0.2",
+    "random-item": "^1.0.0",
+    "random-month": "^1.0.1",
+    "random-natural": "^1.0.3",
+    "random-year": "^1.0.2",
+    "smart-utils": "0.0.7"
+  },
+  "devDependencies": {}
+}
