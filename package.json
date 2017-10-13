@@ -23,7 +23,7 @@
   "homepage": "http://mozg.com.br/",
   "dependencies": {
     "cpf_cnpj": "^0.2.0",
-    "creditcard-info": "^0.2.4",
+    "creditcard-warder": "^0.2.9",
     "random-fullname": "^1.0.2",
     "random-item": "^1.0.0",
     "random-month": "^1.0.1",
