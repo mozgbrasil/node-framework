@@ -48,20 +48,52 @@ console.log(brand);
 
 console.info(consoleLogItem1, '### ');
 
-var myObject_CardType = {};
-myObject_CardType['Amex'] = "376488977091001";
-myObject_CardType['Visa'] = "4073020000000002";
-myObject_CardType['MasterCard'] = "5555666677778884";
-myObject_CardType['Discover'] = "6011000990139424";
-myObject_CardType['Dinners'] = "36201475131126";
-myObject_CardType['JCB'] = "3566002020360505";
-myObject_CardType['ELO'] = "4514166365215946";
-myObject_CardType['Aura'] = "5078601800003247449";
-myObject_CardType['Maestro'] = "6759649826438453";
-myObject_CardType['HiperCard'] = "6062825624254001";
-myObject_CardType['Hiper(Other)'] = "6370950000000000";
 
-var obj = myObject_CardType;
+/*
+
+var cardType = {};
+// validation
+cardType['VI'] = "visa";
+cardType['MC'] = "mastercard";
+cardType['AE'] = "amex";
+cardType['DI'] = "discover";
+cardType['JCB'] = "jcb";
+cardType['SM'] = "maestro";
+// adendo
+cardType['DC'] = "dinersclub";
+cardType['CB'] = "dinersclub";
+cardType['ELO'] = "elo";
+cardType['AU'] = "aura";
+cardType['hipercard'] = "hipercard";
+cardType['visaelectron'] = "visaelectron";
+
+*/
+
+var cardType = {};
+cardType['Amex'] = "376488977091001";
+cardType['Visa'] = "4073020000000002";
+cardType['MasterCard'] = "5555666677778884";
+cardType['Discover'] = "6011000990139424";
+cardType['Dinners'] = "36201475131126";
+cardType['JCB'] = "3566002020360505";
+cardType['ELO'] = "4514166365215946";
+cardType['Aura'] = "5078601800003247449";
+cardType['Maestro'] = "6759649826438453";
+cardType['HiperCard'] = "6062825624254001";
+cardType['Hiper(Other)'] = "6370950000000000";
+
+var rules = creditcardInfo().rules;
+console.log(rules)
+
+// grab the Array item which matchs
+var item = rules.find(item => item.type === 'elo');
+
+// print
+console.log(item);
+console.log(item.pattern);
+
+
+var obj = cardType;
 
 console.log('---- Step 1 ----');
 

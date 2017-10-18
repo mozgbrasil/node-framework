@@ -22,14 +22,14 @@
   },
   "homepage": "http://mozg.com.br/",
   "dependencies": {
-    "cpf_cnpj": "^0.2.0",
-    "creditcard-warder": "^0.2.9",
-    "random-fullname": "^1.0.2",
-    "random-item": "^1.0.0",
-    "random-month": "^1.0.1",
-    "random-natural": "^1.0.3",
-    "random-year": "^1.0.2",
-    "smart-utils": "0.0.7"
+    "cpf_cnpj": "*",
+    "creditcard-warder": "*",
+    "random-fullname": "*",
+    "random-item": "*",
+    "random-month": "*",
+    "random-natural": "*",
+    "random-year": "*",
+    "smart-utils": "*"
   },
   "devDependencies": {}
 }
