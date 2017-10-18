@@ -104,7 +104,7 @@ Ter instalado o [git][git-download] e [npm][npm-download]
 
 	npm install /home/marcio/dados/public_html/git/automatic/node-framework/mozg-node-framework-1.0.0.tgz
 
-	browserify -r cpf_cnpj -r smart-utils -r random-item -r random-year -r random-month -r random-natural -r random-fullname -r random-firstname -r random-lastname -r creditcard-warder -r @mozg/node-framework > /home/marcio/dados/public_html/git/automatic/magento-base/js/mozg_base/bundle.js
+	browserify -r cpf_cnpj -r smart-utils -r random-item -r random-year -r random-month -r random-natural -r random-fullname -r random-firstname -r random-lastname -r random-integral -r creditcard-warder -r @mozg/node-framework > /home/marcio/dados/public_html/git/automatic/magento-base/js/mozg_base/bundle.js
 
 ## Iniciando publicação do pacote
 
