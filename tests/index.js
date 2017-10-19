@@ -12,6 +12,10 @@ consoleLogItem1 = BgCyan+'%s'+Reset;
 
 //
 
+//process.exit();
+
+//
+
 console.log(consoleLogItem1, '### https://www.npmjs.com/~mozg');
 
 //var mozg_node_framework = require('@mozg/node-framework');
@@ -61,7 +65,6 @@ cardType['JCB'] = "jcb";
 cardType['SM'] = "maestro";
 // adendo
 cardType['DC'] = "dinersclub";
-cardType['CB'] = "dinersclub";
 cardType['ELO'] = "elo";
 cardType['AU'] = "aura";
 cardType['hipercard'] = "hipercard";

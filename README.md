@@ -94,6 +94,8 @@ Ter instalado o [git][git-download] e [npm][npm-download]
 
     cd /home/marcio/dados/public_html/git/automatic/node-framework
 
+	npm list
+
 	npm update
 
 	npm pack
