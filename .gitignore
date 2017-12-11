@@ -1,5 +1,7 @@
+/.git
+/node_modules
+*.dev.md
 /.idea/
-/node_modules/
 /module/
 npm-debug.log
 npm-debug.log.*
