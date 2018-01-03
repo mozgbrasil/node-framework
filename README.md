@@ -14,7 +14,7 @@ Javascript Library
 
 Ter instalado o [git][git-download] e [npm][npm-download]
 
-## Requerimento pacote
+## Requerimento
 
 	# https://www.npmjs.com/package/chalk
 	# https://www.npmjs.com/package/commander
@@ -42,6 +42,14 @@ Ter instalado o [git][git-download] e [npm][npm-download]
     sudo npm install -g exorcist
 
     sudo npm install -g uglify-js
+
+	sudo npm install -g bower
+
+	bower cache list
+
+	bower list
+
+	bower update
 
     -
 
