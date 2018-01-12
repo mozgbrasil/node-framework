@@ -45,6 +45,8 @@ Ter instalado o [git][git-download] e [npm][npm-download]
 
 	sudo npm install -g bower
 
+	sudo npm install -g gulp
+
 	bower cache list
 
 	bower list
